@@ -7,19 +7,25 @@
         </div>
     </div>
     <div class="row">
-        <!-- first two icons -->
-        {% for icon in site.author.skill_icon1 %}
-        <div class="col-xs-2 wow fadeInLeft">
+        <!-- Left icons -->
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 wow fadeInLeft">
             <div class="team-member">
-                <div class="vote-icon" style="text-align: center">
-                    <i class="fa {{ icon.name }}"></i>
+                <div class="vote-icon text-center">
+                    <i class="fa {{ site.author.skill_icon1[0].name }}"></i>
                 </div>
             </div>
         </div>
-        {% endfor %}
-        <!-- avatar -->
-        <div class="col-xs-4">
-            <div class="team-member wow zoomIn">
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 wow fadeInLeft">
+            <div class="team-member">
+                <div class="vote-icon text-center">
+                    <i class="fa {{ site.author.skill_icon1[1].name }}"></i>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Center avatar -->
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <div class="team-member wow zoomIn text-center">
                 <img src="{{ site.author.avatar | prepend: site.baseurl }}" height="110" width="110" class="img-responsive img-circle" alt="">
                 <h4><span class="navy">{{ site.author.first_name }}</span> {{ site.author.last_name }}</h4>
                 <ul class="list-inline social-icon">
@@ -38,23 +44,31 @@
                     {% if site.author.email %}
                     <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-o"></i></a></li>
                     {% endif %}
-                    <li><a href="{{ site.baseurl }}/feed.xml" target="blank"><i class="fa fa-rss"></i></a></li>
-                    {% if site.author.cv %}
-                    <li><a href="{{ site.author.cv }}" target="blank"><i class="fa fa-file-pdf-o"></i></a></li>
+                    {% if site.author.google_scholar_id %}
+                    <li><a href="https://scholar.google.com/citations?user={{ site.author.google_scholar_id }}" target="blank"><i class="fa fa-graduation-cap"></i></a></li>
+                    {% endif %}
+                    {% if site.author.researchgate_id %}
+                    <li><a href="https://www.researchgate.net/profile/{{ site.author.researchgate_id }}" target="blank"><i class="fa fa-flask"></i></a></li>
                     {% endif %}
                 </ul>
             </div>
         </div>
-        <!-- second two icons -->
-        {% for icon in site.author.skill_icon2 %}
-        <div class="col-xs-2 wow fadeInRight">
+        
+        <!-- Right icons -->
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 wow fadeInRight">
             <div class="team-member">
-                <div class="vote-icon" style="text-align: center">
-                    <i class="fa {{ icon.name }}"></i>
+                <div class="vote-icon text-center">
+                    <i class="fa {{ site.author.skill_icon2[0].name }}"></i>
                 </div>
             </div>
         </div>
-        {% endfor %}
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 wow fadeInRight">
+            <div class="team-member">
+                <div class="vote-icon text-center">
+                    <i class="fa {{ site.author.skill_icon2[1].name }}"></i>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
@@ -62,3 +76,49 @@
         </div>
     </div>
 </div>
+
+<style>
+.team-member {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Special styling for icon cells only */
+.col-lg-2 .team-member {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.vote-icon {
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    color: #676a6c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.social-icon {
+    margin-top: 15px;
+    padding: 0;
+}
+
+.social-icon li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.social-icon li a {
+    color: #676a6c;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.social-icon li a:hover {
+    color: #1ab394;
+}
+</style>

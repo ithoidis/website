@@ -1,42 +1,41 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: Jalpc
-description: Jack's blog,use Jekyll and github pages.
-keywords: Jack,Jalpc,blog,Jekyll,github,gh-pages
-baseurl:  /Jalpc # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
-url: https://jarrekk.github.io/Jalpc  # url should be 'http://<github_username>.github.io/homepage' as before
-# url: http://127.0.0.1:4000
-img_path: /Jalpc/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
+title: Iordanis Thoidis
+description: Personal website of Iordanis Thoidis, PhD in Electrical and Computer Engineering
+keywords: Iordanis Thoidis, PhD, Electrical Engineering, Hearing Technology, Deep Learning, Speech Processing
+baseurl: /Jalpc
+url: https://ithoidis.github.io/Jalpc
+img_path: /Jalpc/static/assets/img/blog
 
 # author -- index page "about me" section
-author:  # change following line to your infomation.
-  name: Iordanis Thoidis  # Be used at blog posts' author.
-  first_name: Iordanis  # Be used at index page about me section.
-  last_name: Thoidis  # Be used at index page about me section.
-  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
-  github_username: ithoidis  # Leave blank if you don't have now
-  linkedin_id: ithoidis # Leave blank if you don't have now
-  facebook_username: jiakunnj  # Leave blank if you don't have now
-  twitter_username: jiakun614  # Leave blank if you don't have now
-  email: ithoidis@auth.gr  # Leave blank if you don't have now
-  cv: http://cv.jarrekk.com  # An online CV can be printed as PDF, leave blank if you don't have now
-  # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
+author:
+  name: Iordanis Thoidis
+  first_name: Iordanis
+  last_name: Thoidis
+  avatar: /static/assets/img/landing/avatar.jpg
+  github_username: ithoidis
+  linkedin_id: ithoidis
+  researchgate_id: Iordanis-Thoidis
+  google_scholar_id: FbJnHQEAAAAJ
+  email: ithoidis@auth.gr
+  cv: https://www.researchgate.net/profile/Iordanis-Thoidis
   skill_icon1:
-    - name: icon-apache
-    - name: fa-linux
+    - name: fa-graduation-cap
+    - name: fa-microphone
+    - name: fa-brain
   skill_icon2:
-    - name: fa-linux
-    - name: icon-apache
-  desc: Introduce myself will be here.  # Describe yourself.
+    - name: fa-code
+    - name: fa-signal
+    - name: fa-hearing
+  desc: I am a PhD in Electrical and Computer Engineering from the Aristotle University of Thessaloniki, Greece. My research focuses on hearing technology, aiming to restore speech perception for people with hearing loss in complex acoustic environments. My expertise includes deep learning, speech processing, audio semantic analysis, mobile audiometry, hearing aid design, and auditory modelling.
 
 # comment
-disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  name: jalpc
+disqus:
+  name: ithoidis
 
 # analytics
-## google analytics
-ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
+ga:
   id: UA-93473370-3
 
 ## google optimize
@@ -48,11 +47,11 @@ gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your 
   # id:
 
 ## donation
-donation: on  # type 'on'/'off' to choice display donation button at post page or not
+donation: off
 
 ## carousels
-index_carousel: on  # index page carousel switch
-blog_carousel: on  # blog page carousel switch
+index_carousel: on
+blog_carousel: on
 
 # scss
 sass:

@@ -1,0 +1,27 @@
+<div class="row">
+  <div class="col-lg-12 text-center">
+    <h2>My Career</h2>
+    <hr class="star-primary">
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-12">
+    <ul class="timeline">
+      {% for career in site.data.index.careers %}
+      <li {% if forloop.index | modulo: 2 == 0 %}class="timeline-inverted"{% endif %}>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4>{{ career.name.detail }}</h4>
+            <h4 class="subheading">{{ career.job.detail }}</h4>
+          </div>
+          <div class="timeline-body">
+            <p class="text-muted">{{ career.date.detail }}</p>
+            <p>{{ career.desc.detail }}</p>
+          </div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div> 

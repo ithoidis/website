@@ -1,5 +1,6 @@
 <div class="container-fluid">
   <div id="inSlider" class="carousel slide" data-ride="carousel">
+    {% if site.data.index.banners.size > 1 %}
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#inSlider" data-slide-to="0" class="active"></li>
@@ -7,10 +8,10 @@
         <li data-target="#inSlider" data-slide-to="{{ forloop.index }}"></li>
       {% endfor %}
     </ol>
+    {% endif %}
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
-
       <div class="item active">
         <div class="carousel-caption"></div>
         <img src="{{ '/static/assets/img/' | prepend: site.baseurl }}{{ site.data.index.banners[0].src }}" alt="{{ site.data.index.banners[0].title }}" style="width:100%;">
@@ -22,10 +23,9 @@
         <img src="{{ '/static/assets/img/'  | prepend: site.baseurl }}{{ banner.src }}" alt="{{ banner.title }}" style="width:100%;">
       </div>
       {% endfor %}
-      
     </div>
-    
 
+    {% if site.data.index.banners.size > 1 %}
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#inSlider" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
@@ -35,5 +35,6 @@
       <span class="glyphicon glyphicon-chevron-right"></span>
       <span class="sr-only">Next</span>
     </a>
+    {% endif %}
   </div>
 </div>

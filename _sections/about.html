@@ -1,0 +1,34 @@
+{% if site.avatar %}
+<div class="row">
+  <div class="col-lg-12 text-center">
+    <img class="img-circle img-responsive img-center" src="{{ site.avatar | prepend: site.baseurl }}" alt="">
+  </div>
+</div>
+{% endif %}
+
+<div class="row">
+  <div class="col-lg-12 text-center">
+    <h2>About Me</h2>
+    <hr class="star-primary">
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-12">
+    <p>{{ site.author.desc }}</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-12 text-center">
+    <h3>Research Focus</h3>
+    <p>My research focuses on hearing technology, specifically aiming to restore speech perception for people with hearing loss in complex acoustic environments. My expertise spans across:</p>
+    <ul class="list-unstyled">
+      <li>Deep learning for speech enhancement</li>
+      <li>Audio semantic analysis</li>
+      <li>Mobile audiometry</li>
+      <li>Hearing aid design</li>
+      <li>Auditory modelling</li>
+    </ul>
+  </div>
+</div> 

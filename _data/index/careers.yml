@@ -1,30 +1,89 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Company A
-    i18n: company_a
+    detail: Jacoti Hearing Technologies
+    i18n: company_jacoti
   desc:
-    detail: I worked at Company A ...
-    i18n: company_a_desc
+    detail: |
+      • Develop new strategies for hearing assessment and hearing loss compensation
+      • Design clinical evaluations and trials
+      • Develop novel audio signal processing algorithms
+      • Conduct psychometric, pure-tone, and speech tests
+      • Hearing Instrument Characterization and Calibration
+    i18n: company_jacoti_desc
   date:
-    detail: Apr. 2016
-    i18n: company_a_date
+    detail: 2023 - Present
+    i18n: company_jacoti_date
   job:
-    detail: CTO
-    i18n: company_a_job
+    detail: Senior Researcher
+    i18n: company_jacoti_job
   icon: fa-plus-square
   present: true
 
 - name:
-    detail: Company B
-    i18n: company_b
+    detail: MemoPlan P.C.
+    i18n: company_memoplan
   desc:
-    detail: I worked at Company B ...
-    i18n: company_b_desc
+    detail: |
+      • Vision and Strategy Development
+      • IT and AV Consultancy Services
+      • Development and Support of IT Application Software
+    i18n: company_memoplan_desc
   date:
-    detail: Jun. 2015
-    i18n: company_b_date
+    detail: 2016 - Present
+    i18n: company_memoplan_date
   job:
-    detail: Full Stack Developer
-    i18n: company_b_job
+    detail: Co-founder and Software Architect
+    i18n: company_memoplan_job
   icon: fa-plus-square
+  present: true
+
+- name:
+    detail: Infinitivity Design Labs
+    i18n: company_infinitivity
+  desc:
+    detail: |
+      • Researcher in Multimedia Management and Semantics
+      • Biomedical Signal Processing
+      • Image and Audio Analysis
+    i18n: company_infinitivity_desc
+  date:
+    detail: 2021 - 2023
+    i18n: company_infinitivity_date
+  job:
+    detail: Research Engineer
+    i18n: company_infinitivity_job
+  icon: fa-plus-square
+
+- name:
+    detail: University of Ioannina
+    i18n: company_uoi
+  desc:
+    detail: |
+      • Lecturer of "Sound Recording and Mixing Techniques" course
+      • Department of Music studies pre-graduate program
+    i18n: company_uoi_desc
+  date:
+    detail: 2021 - 2022
+    i18n: company_uoi_date
+  job:
+    detail: Adjunct Lecturer
+    i18n: company_uoi_job
+  icon: fa-plus-square
+
+- name:
+    detail: Telmaco S.A.
+    i18n: company_telmaco
+  desc:
+    detail: |
+      • Audio-Visual (AV) System Design Consultancy for European Parliament and Joint Research Center
+      • Designing AV systems using ConnectCAD and VectorWorks
+      • Dante Certifications Level 3
+    i18n: company_telmaco_desc
+  date:
+    detail: 2021 - 2022
+    i18n: company_telmaco_date
+  job:
+    detail: Audio-Visual System Design Consultant
+    i18n: company_telmaco_job
+  icon: fa-plus-square 
