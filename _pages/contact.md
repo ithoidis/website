@@ -23,9 +23,6 @@ Feel free to reach out to me through any of the following channels:
 ### Physical Address
 Eyripidou 4, 54635 Thessaloniki, Greece
 
-### Phone
-+30 6978688451
-
 ## Research Collaboration
 
 I'm always interested in discussing potential research collaborations in the fields of:
