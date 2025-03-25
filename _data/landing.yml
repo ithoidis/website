@@ -18,6 +18,24 @@
   tpl: research.html
   css: research
 
+- id: teaching
+  i18n: nav.teaching
+  name: Teaching
+  tpl: teaching.html
+  css: teaching
+
+- id: news
+  i18n: nav.news
+  name: News
+  tpl: news.html
+  css: news
+
+- id: awards
+  i18n: nav.awards
+  name: Awards
+  tpl: awards.html
+  css: awards
+
 - id: projects
   i18n: nav.projects
   name: Projects
