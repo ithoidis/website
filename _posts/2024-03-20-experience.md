@@ -23,17 +23,12 @@ tags: [experience, skills, professional, technical]
 - Hearing Instrument Testing
 - Real-Ear Measurements
 - Brainstem Auditory Evoked Potentials analysis
-
 - Graduate thesis supervision
 - Grant proposal writing and funding acquisition
 
 ## Education
 - **PhD** in Electrical and Computer Engineering, Aristotle University of Thessaloniki (2018-2024)
 - **MEng** in Electrical and Computer Engineering, Aristotle University of Thessaloniki (2011-2018)
-
-## Languages
-- Greek (Native)
-- English (C2)
 
 ## Certifications
 - NIDA Clinical Trials Network - Good Clinical Practice Certificate

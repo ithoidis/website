@@ -24,16 +24,13 @@
     detail: MemoPlan P.C.
     i18n: company_memoplan
   desc:
-    detail: |
-      • Vision and Strategy Development
-      • IT and AV Consultancy Services
-      • Development and Support of IT Application Software
+    detail: IT Application Software Development and AV Consultancy Services
     i18n: company_memoplan_desc
   date:
     detail: 2016 - Present
     i18n: company_memoplan_date
   job:
-    detail: Co-founder and Software Architect
+    detail: Co-Founder
     i18n: company_memoplan_job
   icon: fa-plus-square
   present: true
@@ -42,10 +39,7 @@
     detail: Infinitivity Design Labs
     i18n: company_infinitivity
   desc:
-    detail: |
-      • Researcher in Multimedia Management and Semantics
-      • Biomedical Signal Processing
-      • Image and Audio Analysis
+    detail: Research in Multimedia Management and Semantics
     i18n: company_infinitivity_desc
   date:
     detail: 2021 - 2023
@@ -56,12 +50,27 @@
   icon: fa-plus-square
 
 - name:
-    detail: University of Ioannina
-    i18n: company_uoi
+    detail: Deep Hearing Lab - University of Cambridge
+    i18n: company_mrc
   desc:
     detail: |
-      • Lecturer of "Sound Recording and Mixing Techniques" course
-      • Department of Music studies pre-graduate program
+      Medical Research Council - Cognition and Brain Sciences Unit
+      Research on deep learning methods to enhance speech intelligibility for hearing aid and cochlear implant users in environments with multiple speakers and background noise
+      Website: https://www.mrc-cbu.cam.ac.uk/
+    i18n: company_mrc_desc
+  date:
+    detail: 2022 
+    i18n: company_mrc_date
+  job:
+    detail: Visiting Research Scholar
+    i18n: company_mrc_job
+  icon: fa-plus-square
+
+- name:
+    detail: Department of Music Studies - University of Ioannina
+    i18n: company_uoi
+  desc:
+    detail: Lecturer of "Sound Recording and Mixing Techniques" course
     i18n: company_uoi_desc
   date:
     detail: 2021 - 2022
@@ -72,18 +81,31 @@
   icon: fa-plus-square
 
 - name:
-    detail: Telmaco S.A.
-    i18n: company_telmaco
+    detail: Laboratory of Electroacoustics and TV Systems - Aristotle University of Thessaloniki
+    i18n: company_auth
   desc:
     detail: |
-      • Audio-Visual (AV) System Design Consultancy for European Parliament and Joint Research Center
-      • Designing AV systems using ConnectCAD and VectorWorks
-      • Dante Certifications Level 3
-    i18n: company_telmaco_desc
+      Audio-Visual (AV) System Design Consultancy for European Parliament and Joint Research Center
+    i18n: company_auth_desc
   date:
     detail: 2021 - 2022
-    i18n: company_telmaco_date
+    i18n: company_auth_date
   job:
     detail: Audio-Visual System Design Consultant
-    i18n: company_telmaco_job
+    i18n: company_auth_job
+  icon: fa-plus-square
+
+- name:
+    detail: Aristotle University of Thessaloniki
+    i18n: company_auth_research
+  desc:
+    detail: |
+      Audio signal processing and Machine Learning for the research project "Automated fault detection of industrial equipment via audio analysis" (5047780) funded by Greece and the European Union (European Social Fund- ESF) through the Operational Programme Human Resources Development, Education and Lifelong Learning 2014- 2020.
+    i18n: company_auth_research_desc
+  date:
+    detail: 2019 - 2021
+    i18n: company_auth_research_date
+  job:
+    detail: Research Fellow
+    i18n: company_auth_research_job
   icon: fa-plus-square 

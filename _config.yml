@@ -21,13 +21,11 @@ author:
   email: ithoidis@auth.gr
   cv: https://www.researchgate.net/profile/Iordanis-Thoidis
   skill_icon1:
-    - name: fa-graduation-cap
     - name: fa-microphone
-    - name: fa-brain
+    - name: fa-volume-up
   skill_icon2:
-    - name: fa-code
-    - name: fa-signal
-    - name: fa-hearing
+    - name: fa-graduation-cap
+    - name: fa-headphones
   desc: I am a PhD in Electrical and Computer Engineering from the Aristotle University of Thessaloniki, Greece. My research focuses on hearing technology, aiming to restore speech perception for people with hearing loss in complex acoustic environments. My expertise includes deep learning, speech processing, audio semantic analysis, mobile audiometry, hearing aid design, and auditory modelling.
 
 # comment

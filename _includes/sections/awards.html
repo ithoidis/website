@@ -1,63 +1,79 @@
 <!-- Awards Section -->
-<section class="section">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-title">
-                    <h2>Honors & Awards</h2>
-                    <div class="section-title-border"></div>
-                </div>
-            </div>
+<div class="container" id="i18_awards">
+    <div class="row m-b-lg">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1>Honours and Awards</h1>
         </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <!-- Awards will be added here -->
-                <div class="award-item">
-                    <div class="award-year">2024</div>
-                    <div class="award-content">
-                        <h4>Award Name</h4>
-                        <p>Brief description of the award and its significance.</p>
-                        <div class="award-links">
-                            <a href="#" class="btn btn-outline-primary btn-sm">Certificate</a>
-                            <a href="#" class="btn btn-outline-primary btn-sm">Press Release</a>
-                        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="awards-content">
+                <div class="award-item wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="award-date">01/07/2022</div>
+                    <div class="award-title">Young Scientist Award</div>
+                    <div class="award-description">
+                        Young Scientist Award at the 3rd Virtual Conference on Computational Audiology for the presentation of the study "Towards diﬀerentiable auditory models as objective functions for listener-specific speech enhancement" Thoidis I., Pastiadis K., Papanikolaou G.
+                    </div>
+                    <div class="award-link">
+                        <a href="https://computationalaudiology.com/vcca2022-conference-report/" target="_blank" class="btn btn-outline-primary btn-sm">Link</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+</div>
 
 <style>
+.awards-content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .award-item {
-    margin-bottom: 2rem;
-    padding: 1.5rem;
-    border-radius: 8px;
+    margin-bottom: 30px;
+    padding: 20px;
     background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
 }
 
 .award-item:hover {
-    transform: translateY(-5px);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.award-year {
-    color: #007bff;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
+.award-date {
+    color: #1ab394;
+    font-weight: 600;
+    margin-bottom: 8px;
 }
 
-.award-content h4 {
-    margin-bottom: 0.5rem;
-    color: #343a40;
+.award-title {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 10px;
 }
 
-.award-links {
-    margin-top: 1rem;
+.award-description {
+    color: #676a6c;
+    line-height: 1.6;
+    margin-bottom: 15px;
 }
 
-.award-links .btn {
-    margin-right: 0.5rem;
+.award-link {
+    margin-top: 15px;
+}
+
+.award-link .btn {
+    transition: all 0.3s ease;
+}
+
+.award-link .btn:hover {
+    transform: translateY(-1px);
 }
 </style> 

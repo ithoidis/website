@@ -2,37 +2,81 @@
     <div class="row m-b-lg">
         <div class="col-lg-12 text-center">
             <div class="navy-line"></div>
-            <h1><span data-i18n="link.link">Link</span></h1>
+            <h1>Contact</h1>
         </div>
-    </div>
-    <div class="row">
-    {% for link in site.data.index.links %}
-        {% assign loopindex = forloop.index | modulo: 3 %}
-        {% if forloop.last %}
-            {% if forloop.last == forloop.first %}
-        <div class="col-sm-4 col-sm-offset-4 wow zoomIn">
-                {% else %}
-        <div class="col-sm-4 wow {% if loopindex != 0 %} col-sm-offset-4 fadeInRight {% else %} zoomIn {% endif %}">
-            {% endif %}
-        {% else %}
-        <div class="col-sm-4 wow {% if loopindex == 1 %} fadeInLeft {% else if loopindex == 2 %} zoomIn {% else %} fadeInRight {% endif %}">
-        {% endif %}
-        <div class="team-member">
-            <h4><span class="navy">{{ link.last_name }}</span> {{ link.first_name }}</h4>
-            <p>{{ link.desc }}</p>
-            <ul class="list-inline social-icon">
-                <li><a href="{{ link.website }}" target="blank"><i class="fa fa-link"></i></a>
-                </li>
-                <li><a href="mailto:{{ link.email }}"><i class="fa fa-envelope-o"></i></a>
-                </li>
-            </ul>
-        </div>
-        </div>
-    {% endfor %}
     </div>
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+            <!-- <h3>Get in Touch</h3> -->
+            <p>I'm always interested in discussing potential research collaborations in the fields of:</p>
+            <ul class="list-unstyled">
+                <li>Hearing technology</li>
+                <li>Deep learning for audio processing</li>
+                <li>Speech processing</li>
+                <li>Mobile audiometry</li>
+                <li>Audio semantic analysis</li>
+            </ul>
+            <p>Feel free to reach out if you'd like to discuss potential collaborations or have any questions about my research.</p>
+            
+            <ul class="list-inline social-icon">
+                {% if site.author.github_username %}
+                <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a></li>
+                {% endif %}
+                {% if site.author.linkedin_id %}
+                <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin_id }}" target="blank"><i class="fa fa-linkedin"></i></a></li>
+                {% endif %}
+                {% if site.author.google_scholar_id %}
+                <li><a href="https://scholar.google.com/citations?user={{ site.author.google_scholar_id }}" target="blank"><i class="fa fa-graduation-cap"></i></a></li>
+                {% endif %}
+                {% if site.author.researchgate_id %}
+                <li><a href="https://www.researchgate.net/profile/{{ site.author.researchgate_id }}" target="blank"><i class="fa fa-flask"></i></a></li>
+                {% endif %}
+                {% if site.author.email %}
+                <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-o"></i></a></li>
+                {% endif %}
+            </ul>
+            
             <p id="jalpc_site_pv"><strong>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</strong></p>
         </div>
     </div>
 </div>
+
+<style>
+.list-unstyled {
+    margin: 20px 0;
+}
+
+.list-unstyled li {
+    margin: 10px 0;
+    color: #676a6c;
+}
+
+.social-icon {
+    margin: 20px 0;
+}
+
+.social-icon li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icon li a {
+    color: #676a6c;
+    font-size: 20px;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #1ab394;
+    color: white;
+}
+
+.social-icon li a:hover {
+    color: white;
+    background-color: #18a689;
+    transform: translateY(-2px);
+}
+</style>
