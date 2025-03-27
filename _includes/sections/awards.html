@@ -3,23 +3,25 @@
     <div class="row m-b-lg">
         <div class="col-lg-12 text-center">
             <div class="navy-line"></div>
-            <h1>Honours and Awards</h1>
+            <h1>Awards</h1>
         </div>
     </div>
 
     <div class="row">
         <div class="col-lg-12">
             <div class="awards-content">
+                {% for award in site.data.index.awards %}
                 <div class="award-item wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="award-date">01/07/2022</div>
-                    <div class="award-title">Young Scientist Award</div>
+                    <div class="award-date">{{ award.year }}</div>
+                    <div class="award-title">{{ award.title }}</div>
                     <div class="award-description">
-                        Young Scientist Award at the 3rd Virtual Conference on Computational Audiology for the presentation of the study "Towards diﬀerentiable auditory models as objective functions for listener-specific speech enhancement" Thoidis I., Pastiadis K., Papanikolaou G.
+                        {{ award.description }}
                     </div>
                     <div class="award-link">
-                        <a href="https://computationalaudiology.com/vcca2022-conference-report/" target="_blank" class="btn btn-outline-primary btn-sm">Link</a>
+                        <a href="{{ award.link }}" target="_blank" class="btn btn-outline-primary btn-sm">Link</a>
                     </div>
                 </div>
+                {% endfor %}
             </div>
         </div>
     </div>
@@ -47,7 +49,8 @@
 }
 
 .award-date {
-    color: #1ab394;
+    color: #007bff;
+    /* color: #1ab394; */
     font-weight: 600;
     margin-bottom: 8px;
 }

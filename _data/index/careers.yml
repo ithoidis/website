@@ -4,12 +4,7 @@
     detail: Jacoti Hearing Technologies
     i18n: company_jacoti
   desc:
-    detail: |
-      • Develop new strategies for hearing assessment and hearing loss compensation
-      • Design clinical evaluations and trials
-      • Develop novel audio signal processing algorithms
-      • Conduct psychometric, pure-tone, and speech tests
-      • Hearing Instrument Characterization and Calibration
+    detail: Jacoti’s mission is to make state-of-the-art hearing solutions accessible and affordable for people with hearing loss throughout the world.
     i18n: company_jacoti_desc
   date:
     detail: 2023 - Present
@@ -21,42 +16,10 @@
   present: true
 
 - name:
-    detail: MemoPlan P.C.
-    i18n: company_memoplan
-  desc:
-    detail: IT Application Software Development and AV Consultancy Services
-    i18n: company_memoplan_desc
-  date:
-    detail: 2016 - Present
-    i18n: company_memoplan_date
-  job:
-    detail: Co-Founder
-    i18n: company_memoplan_job
-  icon: fa-plus-square
-  present: true
-
-- name:
-    detail: Infinitivity Design Labs
-    i18n: company_infinitivity
-  desc:
-    detail: Research in Multimedia Management and Semantics
-    i18n: company_infinitivity_desc
-  date:
-    detail: 2021 - 2023
-    i18n: company_infinitivity_date
-  job:
-    detail: Research Engineer
-    i18n: company_infinitivity_job
-  icon: fa-plus-square
-
-- name:
     detail: Deep Hearing Lab - University of Cambridge
     i18n: company_mrc
   desc:
-    detail: |
-      Medical Research Council - Cognition and Brain Sciences Unit
-      Research on deep learning methods to enhance speech intelligibility for hearing aid and cochlear implant users in environments with multiple speakers and background noise
-      Website: https://www.mrc-cbu.cam.ac.uk/
+    detail: Research on deep learning methods to enhance speech intelligibility for hearing aid and cochlear implant users in environments with multiple speakers and background noise.
     i18n: company_mrc_desc
   date:
     detail: 2022 
@@ -85,13 +48,13 @@
     i18n: company_auth
   desc:
     detail: |
-      Audio-Visual (AV) System Design Consultancy for European Parliament and Joint Research Center
+      Audio-Visual (AV) System Design for projects in the Directorate-General for Security of the European Parliament and the Joint Research Centre of the European Commission.
     i18n: company_auth_desc
   date:
     detail: 2021 - 2022
     i18n: company_auth_date
   job:
-    detail: Audio-Visual System Design Consultant
+    detail: Audio-Visual System Design Engineer
     i18n: company_auth_job
   icon: fa-plus-square
 
@@ -100,7 +63,7 @@
     i18n: company_auth_research
   desc:
     detail: |
-      Audio signal processing and Machine Learning for the research project "Automated fault detection of industrial equipment via audio analysis" (5047780) funded by Greece and the European Union (European Social Fund- ESF) through the Operational Programme Human Resources Development, Education and Lifelong Learning 2014- 2020.
+      Audio signal processing and Machine Learning for the research project "Automated fault detection of industrial equipment via audio analysis" (5047780) funded by Greece and the European Union (European Social Fund- ESF).
     i18n: company_auth_research_desc
   date:
     detail: 2019 - 2021

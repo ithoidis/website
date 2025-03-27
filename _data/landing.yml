@@ -21,13 +21,13 @@
 - id: publications
   i18n: nav.publications
   name: Publications
-  tpl: publications2.html
+  tpl: publications.html
   css: publications
 
 - id: projects
   i18n: nav.projects
   name: Projects
-  tpl: research_projects.html
+  tpl: projects.html
   css: project
 
 - id: awards
@@ -36,11 +36,11 @@
   tpl: awards.html
   css: awards
 
-- id: projects
-  i18n: nav.projects
-  name: Projects
-  tpl: projects.html
-  css: project
+- id: links
+  i18n: nav.links
+  name: Links
+  tpl: links.html
+  css: links
 
 - id: blog
   i18n: nav.blog
@@ -49,8 +49,9 @@
   page: blog/
   css: testimonials navy-section
 
-- id: links
-  i18n: nav.link
+- id: contact
+  i18n: nav.contact
   name: Contact
-  tpl: links.html
+  tpl: contact.html
   css: contact
+  

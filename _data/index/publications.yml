@@ -1,0 +1,33 @@
+- year: 2024
+  publications:
+    - title: "Using deep learning to improve the intelligibility of a target speaker in noisy multi-talker environments for people with normal hearing and hearing loss."
+      authors: "Thoidis, I., & Goehring, T."
+      journal: "The Journal of the Acoustical Society of America"
+      details: "156(1), 706-724"
+      year: "2024"
+      link: "https://doi.org/10.1121/10.0028007"
+      code: "https://osf.io/rysd4/"
+    - title: "Test-retest reliability of remote home-based audiometry in differing ambient noise conditions."
+      authors: "Thoidis, I., Hazan, A., Snik, A., Rivilla, J., Budzyński, K., Mendez, N., & Kinsbergen, J."
+      journal: "Frontiers in Audiology and Otology"
+      details: "2, 1371037"
+      year: "2024"
+      link: "https://doi.org/10.3389/fauot.2024.1371037"
+      # code: "https://github.com/yourusername/paper-repo"
+    - title: "Improved tactile speech robustness to background noise with a dual-path recurrent neural network noise-reduction method."
+      authors: "Fletcher, M. D., Perry, S. W., Thoidis, I., Verschuur, C. A., & Goehring, T."
+      journal: "Scientific Reports"
+      details: "14(1), 7357"
+      year: "2024"
+      link: "https://doi.org/10.1038/s41598-024-57312-7"
+      code: "https://eprints.soton.ac.uk/488218/"
+
+- year: 2023
+  publications:
+    - title: "Perceptual analysis of speaker embeddings for voice discrimination between machine and human listening."
+      authors: "Thoidis, I., Gaultier, C., Goehring, T."
+      journal: "IEEE ICASSP 2023"
+      details: "Rhodes, Greece"
+      year: "June 2023"
+      link: "https://doi.org/10.1109/ICASSP49357.2023.10094782"
+      code: "https://github.com/ithoidis/Perceptual-Speaker-Embeddings-Listening-Test" 

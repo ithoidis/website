@@ -1,0 +1,6 @@
+- name: "Award"
+  title: "Young Scientist Award"
+  year: 2022
+  conference: "Virtual Conference on Computational Audiology 2022"
+  description: "Young Scientist Award at the 3rd Virtual Conference on Computational Audiology 2022 for the presentation of the study 'Towards differentiable auditory models as objective functions for listener-specific speech enhancement' Thoidis I., Pastiadis K., Papanikolaou G."
+  link: "https://computationalaudiology.com/vcca2022-conference-report/"

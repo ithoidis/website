@@ -3,7 +3,7 @@
 # Website settings
 title: Iordanis Thoidis
 description: Personal website of Iordanis Thoidis, PhD in Electrical and Computer Engineering
-keywords: Iordanis Thoidis, PhD, Electrical Engineering, Hearing Technology, Deep Learning, Speech Processing
+keywords: Hearing Technology, Deep Learning, Speech Processing, Iordanis Thoidis, 
 baseurl: /Jalpc
 url: https://ithoidis.github.io/Jalpc
 img_path: /Jalpc/static/assets/img/blog
@@ -26,7 +26,8 @@ author:
   skill_icon2:
     - name: fa-graduation-cap
     - name: fa-headphones
-  desc: I am a PhD in Electrical and Computer Engineering from the Aristotle University of Thessaloniki, Greece. My research focuses on hearing technology, aiming to restore speech perception for people with hearing loss in complex acoustic environments. My expertise includes deep learning, speech processing, audio semantic analysis, mobile audiometry, hearing aid design, and auditory modelling.
+  desc: |
+    I am a Researcher in Hearing Technology, studying how people with hearing loss perceive speech and sound, and developing innovative solutions to make life sound better.
 
 # comment
 disqus:

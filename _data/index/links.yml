@@ -1,0 +1,32 @@
+# Link section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest links' img be located at '/static/assets/img/landing', and edit following img items.
+- name: SCENE Project
+  i18n: projects.scene
+  url: https://scene-project.eu/
+  img: /static/assets/img/landing/scene.png
+  desc: "SCENE is a Horizon Europe project that aims to develop a novel, low-cost, and user-friendly hearing screening and monitoring system for children. The project focuses on creating an engaging game-based screening tool that can be used at home or in schools, making hearing health assessment more accessible and less intimidating for children."
+
+- name: Deep Hearing Lab
+  i18n: projects.deephearing
+  url: https://www.deephearinglab.com/
+  img: /static/assets/img/landing/deephearing.png
+  desc: "Research collaboration with Dr. Tobias Goehring's Deep Hearing Lab, focusing on speech perception with hearing devices. The lab combines auditory neuroscience, engineering, and deep learning to advance our understanding of hearing technology, including cochlear implants, hearing aids, and hearables."
+
+- name: Hellenic Institute of Acoustics
+  i18n: projects.helina
+  url: https://helina.gr/en/
+  img: /static/assets/img/landing/helina.png
+  desc: "Member of the Hellenic Institute of Acoustics (HELINA), an organization founded in 2002 that brings together Greek scientists active in acoustics. HELINA contributes to the advancement of acoustics in Greece and collaborates with similar institutes worldwide to spread knowledge and foster innovation in the field."
+
+- name: AVLab
+  i18n: projects.avlab
+  url: http://avlab.ee.auth.gr
+  img: /static/assets/img/landing/avlab.png
+  desc: The Laboratory of Electroacoustics and TV Systems at Aristotle University of Thessaloniki conducts research in audio, acoustics, and multimedia systems.
+
+- name: M3C - Multimedia, Multimodal and Multichannel Content Lab
+  i18n: projects.m3c
+  url: http://m3c.web.auth.gr
+  img: /static/assets/img/landing/m3c.png
+  desc: The M3C Lab at Aristotle University of Thessaloniki focuses on research in multimedia content analysis, multimodal interaction, and multichannel audio processing.
