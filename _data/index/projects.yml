@@ -19,5 +19,5 @@
   icon: "fa-magic"
 
 - title: "Audio-Driven Fault Detection"
-  description: "Development of audio signal processing and machine learning techniques for automated fault detection of industrial equipment, funded by Greece and the European Union (ESF)."
+  description: "Development of audio signal processing and semi-supervisedmachine learning techniques for automated fault detection of industrial equipment."
   icon: "fa-industry" 
