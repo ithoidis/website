@@ -4,7 +4,7 @@
 title: Iordanis Thoidis
 description: Personal website of Iordanis Thoidis, PhD in Electrical and Computer Engineering
 keywords: Hearing Technology, Deep Learning, Speech Processing, Iordanis Thoidis, 
-baseurl: "/website"
+baseurl: ""
 url: https://ithoidis.github.io/website
 img_path: /website/static/assets/img/blog
 
