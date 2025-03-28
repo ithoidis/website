@@ -2,7 +2,7 @@
 layout: post
 title: Hello world
 date: 2025-03-27
-categories: experience
+categories: Welcome
 tags: [welcome]
 ---
 
