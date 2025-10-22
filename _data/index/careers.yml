@@ -1,6 +1,21 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
+    detail: Shama AI
+    i18n: company_shama
+  desc:
+    detail: Shama AI provides Universal, Real-time, High Accuracy, and Lightweight Audio Deepfake Detection Models for all cyberattacks, including ever-advancing Generative AI
+    i18n: company_shama_desc
+  date:
+    detail: 2025 - Present
+    i18n: company_shama_date
+  job:
+    detail: Research Scientist
+    i18n: company_shama_job
+  icon: fa-plus-square
+  present: true
+
+- name:
     detail: Jacoti Hearing Technologies
     i18n: company_jacoti
   desc:
