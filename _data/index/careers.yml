@@ -7,13 +7,12 @@
     detail: Jacoti’s mission is to make state-of-the-art hearing solutions accessible and affordable for people with hearing loss throughout the world.
     i18n: company_jacoti_desc
   date:
-    detail: 2023 - Present
+    detail: 2023 - 2025
     i18n: company_jacoti_date
   job:
     detail: Senior Researcher
     i18n: company_jacoti_job
   icon: fa-plus-square
-  present: true
 
 - name:
     detail: Deep Hearing Lab - University of Cambridge
