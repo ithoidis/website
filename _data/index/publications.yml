@@ -1,3 +1,11 @@
+- year: 2025
+  publications:
+    - title: "Own-Voice extraction for hearing aids: A deep learning approach to a new challenge"
+      authors: "Thoidis, I."
+      journal: "Preprint"
+      details: "(Under Review)"
+      year: "2025"
+
 - year: 2024
   publications:
     - title: "Using deep learning to improve the intelligibility of a target speaker in noisy multi-talker environments for people with normal hearing and hearing loss."
