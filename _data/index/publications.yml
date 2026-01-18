@@ -1,19 +1,19 @@
 - year: 2026
   publications:
    - title: "Own-voice extraction for hearing aids: A deep learning approach to a new challenge"
-      authors: "Thoidis, I."
+      authors: "Thoidis, I., & Papanikolaou, G."
       journal: "Preprint"
       details: "(Under Review)"
       year: "2026"
 - year: 2025
   publications:
     - title: "Clinical validation of a wireless earbud-based audiometry system via the Jacoti Hearing Center application"
-      authors: "Hazan, A., Thoidis, I, Snik, A., Rivilla, J., Budzynski, K., Mendez, N., and Kinsbergen, J."
+      authors: "Hazan, A., Thoidis, I, Snik, A., Rivilla, J., Budzynski, K., Mendez, N., & Kinsbergen, J."
       journal: "White Paper"
       details: ""
       year: "2025"
     - title: "An audio quality metrics toolbox for media assets management, content exchange, and dataset alignment"
-      authors: "Vryzas, N., Thoidis, I, Vrysis, L., Papanikolaou, G., Dimoulas, C."
+      authors: "Vryzas, N., Thoidis, I, Vrysis, L., Papanikolaou, G., & Dimoulas, C."
       journal: "AudAio Engineering Society Europe Convention"
       details: "Warsaw, Poland"
       year: "2025"
